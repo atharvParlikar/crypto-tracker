@@ -1,0 +1,22 @@
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+h2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 59px;
+	color: #dedede;
+	margin-top: 10px;
+}
+
+.searchbar {
+	position: absolute;
+	width: 515px;
+	height: 47px;
+	left: 869px;
+	top: 60px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			const key = "put your key here!";
+			const url = `https://api.nomics.com/v1/market-cap/history?key=${key}&start=2018-04-14T00%3A00%3A00Z&end=2018-04-21T00%3A00%3A00Z&convert=INR`;
+			let jsondata = {};
+			async( (url) => {
+				const response = await fetch(url);
+				const data = repsonse.json();
+				return data;
+			})
+
+			console.log();
+		</script>
+	</body>
+</html>

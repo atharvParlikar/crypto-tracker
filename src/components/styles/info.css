@@ -1,0 +1,32 @@
+.container-info {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	align-items: center;
+	background-color: #2a2a2a;
+	width: 90%;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+
+.id {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 41px;
+	margin: 0;
+	color: #ffffff;
+}
+
+.crypto-name {
+	display: flex;
+	justify-content: space-between;
+}
+
+.image {
+	width: 25px;
+	height: 25px;
+	margin-top: 7px;
+	margin-right: 5px;
+}
