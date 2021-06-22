@@ -9,8 +9,8 @@ export default function Info(props) {
 				<img className="image" src={props.img} />
 				<h5 className="id">{props.id}</h5>
 			</div>
-			<h5 className="id">{parseInt(props.price)}</h5>
-			<h5 className="id">{parseInt(props.marketCap)}</h5>
+			<h5 className="id">{parseFloat(props.price)}</h5>
+			<h5 className="id">{parseFloat(props.marketCap)}</h5>
 			{props.change > 0 ? (
 				<h5 className="id" style={{ color: "#16c784" }}>
 					+{parseFloat(props.change)}%
